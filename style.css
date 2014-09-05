@@ -1,0 +1,18 @@
+@font-face{font-family:"Naiv";src:url(http://ouishare.net/assets/naiv_normal-webfont-533530194618c780d28e9f50b03c34cc.ttf) format("truetype"),url(http://ouishare.net/fonts/naiv_normal-webfont.otf) format("opentype")}@font-face{font-family:"Ouishare Stencil";src:url(http://ouishare.net/assets/ouishare_stencil_bold-webfont-3c560cc6327aaaded5ad6e4de0b6cc63.ttf) format("truetype"),url(http://ouishare.net/fonts/ouishare_stencil_bold-webfont.otf) format("opentype")}
+
+body, ul, li, a {font-family: "Naiv";}
+
+div.map-text {width:100%; height:auto; background:#fff;position:fixed; top:50px;text-align:center;font-size:0.9em;line-height:auto;}
+div.map-text span {width:60%;margin: 0 auto;}
+iframe#map {position:fixed; left:0px; bottom:0px; right:0px; width:100%; height:89%; border:none; margin:0; padding:0; overflow:hidden; z-index:99;}
+
+@media (max-width: 768px) {
+   div.map-text span{width:90%;}
+   iframe#map {top:16%; height:84%;}
+
+}
+@media (max-width: 350px) {
+   div.map-text span{width:90%;}
+   iframe#map {top:20%; height:80%;}
+
+}
