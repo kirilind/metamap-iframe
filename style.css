@@ -1,6 +1,6 @@
 @font-face{font-family:"Naiv";src:url(http://ouishare.net/assets/naiv_normal-webfont-533530194618c780d28e9f50b03c34cc.ttf) format("truetype"),url(http://ouishare.net/fonts/naiv_normal-webfont.otf) format("opentype")}@font-face{font-family:"Ouishare Stencil";src:url(http://ouishare.net/assets/ouishare_stencil_bold-webfont-3c560cc6327aaaded5ad6e4de0b6cc63.ttf) format("truetype"),url(http://ouishare.net/fonts/ouishare_stencil_bold-webfont.otf) format("opentype")}
 
-body, ul, li, a {font-family: "Naiv";}
+body, ul, li, a {font-family: "Naiv", Verdana, Arial, sans-serif;}
 
 div.map-text {width:100%; height:auto; background:#fff;position:fixed; top:50px;text-align:center;font-size:0.9em;line-height:auto;}
 div.map-text span {width:60%;margin: 0 auto;}
